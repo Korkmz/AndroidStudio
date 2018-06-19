@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ekr3"
+    android:layout_height="match_parent"
+    tools:context="com.example.tr.denemematuyg.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/topbut"
+        android:layout_width="240dip"
+        android:layout_height="70dip"
+
+        android:onClick="topla"
+        android:text="@string/top"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/cıkbut"
+        android:layout_width="240dip"
+        android:layout_height="70dip"
+
+        android:onClick="cikar"
+        android:text="@string/cikar"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/topbut"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/topbut"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/topbut" />
+
+    <Button
+        android:id="@+id/crpbut"
+        android:layout_width="240dip"
+        android:layout_height="70dip"
+
+        android:onClick="carp"
+        android:text="@string/carp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/cıkbut"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/cıkbut"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/cıkbut" />
+
+    <Button
+        android:id="@+id/bolbut"
+        android:layout_width="240dip"
+        android:layout_height="70dip"
+
+        android:onClick="bolme"
+        android:text="@string/böl"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/crpbut"
+        app:layout_constraintRight_toRightOf="@+id/crpbut"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/crpbut"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp" />
+
+</android.support.constraint.ConstraintLayout>

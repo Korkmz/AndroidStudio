@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">denemeMatUyg</string>
+    <string name="top">Toplma Öğren</string>
+    <string name="carp">Çarpma Öğren</string>
+    <string name="cikar">Çıkartma Öğren</string>
+    <string name="böl">Bölme Öğren</string>
+    <string name="bulson">Bulduğunuz Sonuc ?</string>
+    <string name="kontrol">Kontrol Et</string>
+    <string name="say1">6</string>
+    <string name="say2">7</string>
+    <string name="süre">Süre : 30</string>
+    <string name="skor">Score : 0</string>
+    <string name="artı">+</string>
+    <string name="cik">-</string>
+    <string name="cap">*</string>
+    <string name="bolme">/</string>
+    <string name="cikis">cikis</string>
+</resources>
